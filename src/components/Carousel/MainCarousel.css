@@ -4,4 +4,57 @@
   background: #092a49;
   min-height: 400px;
   height: calc(100vh - 35px);
+  margin-bottom: 45px;
+}
+
+.carousel .container-fluid {
+  padding: 0;
+}
+.carousel .carousel-item {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 35px);
+  align-items: center;
+  justify-content: center;
+}
+.carousel .carousel-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  overflow: hidden;
+}
+.carousel .carousel-img::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(9, 42, 73, 0.3);
+  z-index: 1;
+}
+.carousel .carousel-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.carousel .carousel-caption {
+  position: absolute;
+  max-width: 700px;
+  height: calc(100vh - 35px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  z-index: 2;
+}
+.carousel .carousel-caption h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.carousel .carousel-caption p {
 }

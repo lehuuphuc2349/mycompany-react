@@ -10,7 +10,7 @@ function MainCarousel() {
       <Container fluid>
         <Carousel>
           <Carousel.Item>
-            <div className="carousel-image">
+            <div className="carousel-img">
               <img src={carousel1} alt="" />
             </div>
             <Carousel.Caption>
