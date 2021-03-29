@@ -1,0 +1,44 @@
+.top-bar {
+  position: relative;
+  height: 35px;
+  background: linear-gradient(to right, #0796fe, #092a49);
+}
+.top-bar .top-bar-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.top-bar .top-bar-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.top-bar .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 35px;
+  padding: 0 10px;
+  text-align: center;
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+.top-bar .text:last-child {
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+.top-bar .text i {
+  font-size: 14px;
+  color: #ffffff;
+  margin-right: 15px;
+}
+.top-bar .text h2 {
+  color: #eeeeee;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 0 5px;
+}
+.top-bar .text p {
+  color: #eeeeee;
+  font-size: 14px;
+  margin: 0 0 0 18px;
+}
