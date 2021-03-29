@@ -5,10 +5,9 @@ import {
   Navbar,
   NavbarBrand,
   NavDropdown,
-  NavItem,
-  Row,
 } from "react-bootstrap";
 import "./Navbar.css";
+
 function NavbarPage() {
   return (
     <Navbar className="navbar" expand="md" bg="dark" variant="dark">
