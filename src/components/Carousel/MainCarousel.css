@@ -1,0 +1,7 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  background: #092a49;
+  min-height: 400px;
+  height: calc(100vh - 35px);
+}

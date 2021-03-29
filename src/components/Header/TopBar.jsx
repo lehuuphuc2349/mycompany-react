@@ -1,24 +1,6 @@
-import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./TopBar.css";
 function TopBar() {
-  const [show, setShow] = useState(false);
-  const showInner = () => {
-    if (show && window.innerWidth == 992) {
-      setShow(true);
-    } else {
-      setShow(false);
-    }
-  };
-  const dp = ["none", "block"];
-  const styleShow = () => {
-    if (show) {
-      window.addEventListener("load", showInner());
-    } else window.addEventListener("onload", styleShow);
-  };
-  useEffect(() => {
-    showInner();
-  }, []);
   return (
     <div className="top-bar d-none d-md-block">
       <Container fluid>

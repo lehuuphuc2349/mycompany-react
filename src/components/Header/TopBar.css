@@ -29,20 +29,20 @@
 .top-bar .text i {
   font-size: 14px;
   color: #ffffff;
-  margin-right: 15px;
+  margin-right: 5px;
 }
 .top-bar .text h2 {
   color: #eeeeee;
   font-size: 14px;
   font-weight: 400;
-  letter-spacing: 1;
+  letter-spacing: 1px;
   margin: 0;
 }
 .top-bar .text p {
   color: #eeeeee;
   font-size: 14px;
   font-weight: 400;
-  margin: 0 0 0 18px;
+  margin: 0 0 0 5px;
 }
 .top-bar .social {
   display: flex;
@@ -50,20 +50,17 @@
   height: 35px;
   font-size: 0;
 }
-/* .top-bar .top-bar-right .social a {
-  color: #eeeeee;
-} */
 .top-bar .social a {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 35px;
   height: 100%;
-  font-size: 14px;
+  font-size: 16px;
   color: #eeeeee;
   border-right: 1px solid rgba(255, 255, 255, 0.15);
-  padding: 5px;
 }
-@media screen and(min-width:992px) {
+@media (min-width: 992px) {
   .top-bar {
     padding: 0 60px;
   }

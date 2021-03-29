@@ -12,11 +12,13 @@ function NavbarPage() {
   return (
     <Navbar className="navbar" expand="md" bg="dark" variant="dark">
       <Container fluid>
-        <NavbarBrand href="/">HappyGroup</NavbarBrand>
+        <NavbarBrand href="/">Happy</NavbarBrand>
         <Navbar.Toggle aria-control="navbar-responsive-nav" />
         <Navbar.Collapse id="navbar-responsive-nav">
-          <Nav ml="auto">
-            <Nav.Link>Home</Nav.Link>
+          <Nav className="ml-auto">
+            <Nav.Link href="/" className="active">
+              Home
+            </Nav.Link>
             <Nav.Link>About</Nav.Link>
             <Nav.Link>Services</Nav.Link>
             <Nav.Link>Features</Nav.Link>

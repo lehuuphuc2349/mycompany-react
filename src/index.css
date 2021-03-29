@@ -26,3 +26,8 @@ a:focus {
   outline: none;
   text-decoration: none;
 }
+
+.btn:focus,
+.form-control:focus {
+  box-shadow: none;
+}
