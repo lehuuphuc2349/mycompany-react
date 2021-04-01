@@ -111,6 +111,7 @@ var data = [
     Before moving West, Arsham spent five years in Boston at the expansion stage venture firm, OpenView, where he invested in companies like Deputy, Highspot, and GitPrime, among others. He’s backed companies across three continents, in unlikely geographies and led by unassuming entrepreneurs, so it’s no surprise that Lightspeed’s global platform was part of what drew him to the firm. “I love finding great companies that might not follow popular narratives or be the golden child of Silicon Valley,” said Arsham. “I wholeheartedly believe innovation extends beyond the confines of the Bay Area.” Prior to investing, Arsham was a growth consultant, advising SaaS companies and helping analyze market and customer data to define product and GTM strategies. <br/>
     Arsham studied Industrial and Labor Relations at Cornell University and is an active member of the school’s Entrepreneurship Advisory Council. When he’s not working, you can usually find him exploring all things outdoors or doing his best to not burn down the kitchen while cooking. <br/>
     `,
+    place: `US`,
   },
 ];
 export default data;
