@@ -1,0 +1,108 @@
+.review {
+  position: relative;
+  width: 100%;
+  padding: 45px 0;
+}
+.review .review-carousel {
+  position: relative;
+  width: calc(100% + 30px);
+  margin: 0 -15px;
+}
+.review .review-item {
+  position: relative;
+  width: 100%;
+  padding: 0 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.review .review-carousel img {
+  position: relative;
+  width: 80px;
+  border-radius: 80px;
+  margin-bottom: 15px;
+}
+
+.review .review-carousel p {
+  margin-bottom: 15px;
+}
+.review .review-carousel h2 {
+  position: relative;
+  color: #092afe;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  padding-bottom: 3px;
+}
+.review .review-carousel h2::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: #0796fe;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+}
+.review .review-carousel h2:hover::before {
+  width: 80px;
+}
+.review .review-carousel h3 {
+  color: #999999;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin: 0;
+  padding-bottom: 5px;
+}
+.review .owl-nav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.review .owl-nav button.owl-prev,
+.review .owl-nav button.owl-next {
+  position: relative;
+  width: 100px;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  color: #0796fe;
+}
+.review .owl-nav button.owl-prev {
+  padding-right: 80px !important;
+}
+.review .owl-nav button.owl-next {
+  padding-left: 80px !important;
+}
+.review .owl-nav button.owl-prev:hover,
+.review .owl-nav button.owl-next:hover {
+  color: #092a49;
+}
+.review .owl-nav button.owl-prev::after,
+.review .owl-nav button.owl-next::after {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 3px;
+  top: 11px;
+  background: #0796fe;
+  transition: 0.3s;
+}
+.review .owl-nav button.owl-prev::after {
+  left: 9px;
+}
+.review .owl-nav button.owl-next::after {
+  right: 9px;
+}
+.review .owl-nav button.owl-prev:hover::after,
+.review .owl-nav button.owl-next:hover::after {
+  background: #092a49 !important;
+}
