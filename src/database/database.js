@@ -82,5 +82,35 @@ var data = [
     “What excited me about Lightspeed in particular was the flat culture and hustle mentality within the firm,” he says. “We are constantly pushing the bar higher for ourselves, looking for ways to keep moving quickly while improving ourselves and our approach to better serve the entrepreneurs we work with—a necessary quality when our business involves partnering with individuals dreaming up the next great technology and looking to create a seismic impact on the world.”`,
     place: `US`,
   },
+  {
+    id: 9,
+    role: `PARTNER`,
+    name: `ARIF JANMOHAMED`,
+    quote: `It's a privilege to work with talented entrepreneurs who are exceptional at seeing emerging markets, quickly adapting, and building for those markets.`,
+    image: "src/database/images/image-9.png",
+    story: `As a chip designer and then product manager in the late ‘90s and early ‘00s—working for venture-backed startups such as WebTV and Andes Networks—Arif witnessed first-hand the power venture capital had to effect change. It proved to be the introduction to the rest of his life. <br/>
+    “There were a number of VCs affiliated with those companies who were kind enough to share their time, mentor me, and teach me about the art and craft of venture capital,” he says. “From then, I had my sights set on VC.” <br/>
+    But whether he knew it or not, the groundwork for his career path had long since been laid. Between his grandfather (an entrepreneur who had started and run several businesses around the world) and his father (an engineer and MBA turned entrepreneur who relished every opportunity to discuss his passions with his son), Arif grew up surrounded by the pillars of innovation. <br/>
+    So it comes as little surprise that he went on to earn a BSc in computer engineering from the University of Waterloo, in Canada, and an MBA from the Wharton School, at the University of Pennsylvania. <br/>
+    But while his first love was technology, he’s learned during his tenure at Lightspeed that it’s usually the founders, along with incredible technology, that make an enterprise company great. That’s why he looks for founders who not only have deep insight into technological innovations, but also those who think big about the future. <br/>      
+    “I’ve switched from thinking, ‘What’s the technological advantage?’ to, ‘What drives this founder and how will they use their technological advantage to build an enduring business?’” <br/>
+    He says it’s a challenging and lonely job, being a CEO, which is why he aims to be a true partner to his founders—a trusted, levelheaded person who can help navigate the trenches of building a business. From being a coach, advisor, and even a psychologist to offering hands-on help with hiring, strategy, and business partnerships, there’s little Arif doesn’t do to support the CEOs he works with. <br/>
+    It seems to work. Since he joined Lightspeed in 2008 with a focus on cloud and datacenter technologies as well as enterprise mobile and Saas solutions, he’s helped six companies toward acquisition and one to IPO. Of course, he credits some of this success to his upbringing. <br/>
+    “I’ve got a way about myself that’s quite Canadian,” he says with a laugh: “polite but firm.” <br/>
+    `,
+    place: `US`,
+  },
+  {
+    id: 10,
+    role: `PARTNER`,
+    name: `ARSHAM MEMARZADEH`,
+    quote: `“Entrepreneurs are a rare breed and in a league of their own. Working alongside them, enabling their success, is what makes my day-to-day rewarding.”`,
+    image: "src/database/images/image-10.png",
+    story: `Born the son of an Iranian immigrant and entrepreneur, Arsham developed an early appreciation for the resilience and ingenuity required to win, even when all the cards are stacked against you. “Building a company requires countless instances of running through, breaking down, and climbing over walls,” said Arsham. “Entrepreneurs are a rare breed and in a league of their own. Working alongside them, enabling their success, is what makes my day-to-day rewarding.” <br/>
+    Arsham joined Lightspeed’s growth practice in 2019 to invest in product-driven software companies. He has a passion for evolving distribution models and believes the best companies find GTM leverage out of the product itself. “Consumerization of the enterprise has just as much to do with evolving sales motions as it does with building better products,” said Arsham. “Historically, company-building has been bifurcated into product development and product distribution. The next generation of great software companies will combine those worlds.” <br/>
+    Before moving West, Arsham spent five years in Boston at the expansion stage venture firm, OpenView, where he invested in companies like Deputy, Highspot, and GitPrime, among others. He’s backed companies across three continents, in unlikely geographies and led by unassuming entrepreneurs, so it’s no surprise that Lightspeed’s global platform was part of what drew him to the firm. “I love finding great companies that might not follow popular narratives or be the golden child of Silicon Valley,” said Arsham. “I wholeheartedly believe innovation extends beyond the confines of the Bay Area.” Prior to investing, Arsham was a growth consultant, advising SaaS companies and helping analyze market and customer data to define product and GTM strategies. <br/>
+    Arsham studied Industrial and Labor Relations at Cornell University and is an active member of the school’s Entrepreneurship Advisory Council. When he’s not working, you can usually find him exploring all things outdoors or doing his best to not burn down the kitchen while cooking. <br/>
+    `,
+  },
 ];
 export default data;
